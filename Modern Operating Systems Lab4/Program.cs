@@ -1,15 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Modern_Operating_Systems_Lab4.Helpers;
 
 namespace Modern_Operating_Systems_Lab4
 {
-	class Program
+	internal static class Program
 	{
-		static void Main(string[] args)
+		private static void Main()
 		{
+			var helper = new DatabaseHelper();
+			helper.GetFreeRoomsForSelectedDate(DateTime.Now);
 		}
 	}
 }

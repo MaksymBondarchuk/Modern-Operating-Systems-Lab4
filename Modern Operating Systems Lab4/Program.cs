@@ -8,7 +8,7 @@ namespace Modern_Operating_Systems_Lab4
 		private static void Main()
 		{
 			var helper = new DatabaseHelper();
-			helper.GetFreeRoomsForSelectedDate(DateTime.Now);
+			var rooms = helper.GetFreeRoomsForSelectedDate(DateTime.Now);
 		}
 	}
 }

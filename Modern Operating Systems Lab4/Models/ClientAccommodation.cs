@@ -11,8 +11,8 @@ namespace Modern_Operating_Systems_Lab4.Models
         public Guid Id { get; set; }
 
         public bool IsBooking { get; set; }
-        public DateTime Begin { get; set; }
-        public DateTime End { get; set; }
+        public DateTime From { get; set; }
+        public DateTime To { get; set; }
 
 
         public Guid ClientId { get; set; }

@@ -60,6 +60,7 @@
     <Compile Include="Models\ClientService.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\Floor.cs" />
+    <Compile Include="Models\HotelContext.cs" />
     <Compile Include="Models\InternalOrder.cs" />
     <Compile Include="Models\Occupation.cs" />
     <Compile Include="Models\OrderType.cs" />

@@ -26,8 +26,8 @@ namespace Modern_Operating_Systems_Lab4
 			}
 
 			// Reserve Room
-			var donaldTrump = new Client { Id = Guid.Parse("14F6BEA9-AC19-4366-8944-BDE9FDEDE35F") };
-			var hisFavoriteRoom = new Room { Id = Guid.Parse("48701E49-43C2-4FE8-8654-158EFCDF82C9") };
+			var donaldTrump = new Client { Id = Guid.Parse("80B7E813-80DC-4427-90F8-2184F3A9F410") };
+			var hisFavoriteRoom = new Room { Id = Guid.Parse("D51927E6-E95E-474B-83F5-0D678909719F") };
 			helper.ReserveRoom(hisFavoriteRoom, donaldTrump, new DateTime(2017, 11, 20), new DateTime(2017, 12, 1));
 			Console.WriteLine("\nRoom reserved successfully");
 
